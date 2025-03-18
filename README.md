@@ -1,12 +1,18 @@
-# React + Vite
+# Ecommerce Cart Page Sample (React Context API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a sample ecommerce cart page implemented using React and the Context API for state management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Cart Management:**
+    * Add and remove items from the cart.
+    * Increment and decrement item quantities.
+* **Real-time Calculations:**
+    * Dynamically calculate and display the total quantity and total price of items in the cart.
+    * Display subtotal for each item.
+* **Empty Cart Handling:**
+    * Displays a message when the cart is empty.
+* **Responsive Layout:**
+    * Uses Bootstrap for a responsive and clean user interface.
+* **Context API:**
+    * Uses React's Context API for efficient state management across the cart page
